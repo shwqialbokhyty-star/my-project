@@ -30,3 +30,18 @@ input {
     text-align: right;
     direction: rtl;
 }
+
+
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #00e6e6;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background: #00b3b3;
+}

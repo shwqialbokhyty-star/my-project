@@ -17,3 +17,16 @@ h1 {
     text-align: center;
     margin-bottom: 20px;
 }
+
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: none;
+    border: none;
+    box-sizing: border-box;
+    text-align: right;
+    direction: rtl;
+}

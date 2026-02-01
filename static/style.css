@@ -45,3 +45,11 @@ button {
 button:hover {
     background: #00b3b3;
 }
+.result {
+    margin-top: 20px;
+    padding: 12px;
+    text-align: center;
+    font-size: 18px;
+    background: #111;
+    border-radius: 8px;
+}

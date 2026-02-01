@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>Diabetes Prediction</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+
+<div class="container">
+    <h1>🔬 نظام التنبؤ بمرض السكري</h1>
+
+    <form method="post">
+        <input type="number" step="any" name="Pregnancies" placeholder="عدد مرات الحمل" required>
+        <input type="number" step="any" name="Glucose" placeholder="مستوى الجلوكوز" required>
+        <input type="number" step="any" name="BloodPressure" placeholder="ضغط الدم" required>
+        <input type="number" step="any" name="SkinThickness" placeholder="سمك الجلد" required>
+        <input type="number" step="any" name="BMI" placeholder="مؤشر كتلة الجسم BMI" required>
+
+        <!-- 👇 الحقل المضاف -->
+        <input type="number" step="any" name="DPF" placeholder="العامل الواراثي (مثال 0.5)" required>
+
+        <input type="number" step="any" name="Age" placeholder="العمر" required>
+
+        <button type="submit">🔍 تحليل النتيجة</button>
+    </form>
+
+    {% if result %}
+        <div class="result">{{ result }}</div>
+    {% endif %}
+</div>
+
+</body>
+</html>
+
+

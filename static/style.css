@@ -3,3 +3,12 @@ body {
     background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
     color: white;
 }
+
+.container {
+    width: 420px;
+    margin: 80px auto;
+    background: rgba(0,0,0,0.6);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #00e6e6;
+}
